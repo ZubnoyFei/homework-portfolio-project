@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'LibreFranklin';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("fonts") format('woff2')
+}
+
+@font-face {
+    font-family: 'LibreFranklin-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("fonts/LibreFranklin-Bold.woff2") format('woff2')
+}
+
+
+@font-face {
+    font-family: 'LibreFranklin-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/LibreFranklin-Regular.woff2") format('woff2')
+}
+
+
+body {
+    font-family: 'LibreFranklin', sans-serif;
+}
